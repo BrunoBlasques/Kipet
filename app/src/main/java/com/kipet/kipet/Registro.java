@@ -11,6 +11,10 @@ public class Registro extends AppCompatActivity {
 
     private Toolbar toolbar;
     private Toolbar toolbarButton;
+    private EditText nome;
+    private EditText email;
+    private EditText senha;
+    private EditText confirmaSenha;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +30,11 @@ public class Registro extends AppCompatActivity {
             setSupportActionBar(toolbar);
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
+
+        nome = (EditText) findViewById(R.id.editTextNome);
+        email = (EditText) findViewById(R.id.editTextEmail);
+        senha = (EditText) findViewById(R.id.editTextSenhaRegistro);
+        confirmaSenha = (EditText) findViewById(R.id.editTextRepeteSenha);
 
 
     }
