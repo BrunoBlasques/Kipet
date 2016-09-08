@@ -1,4 +1,4 @@
-package com.kipet.DAO;
+package com.kipet.kipet;
 
 /**
  * Created by Bruno on 07/09/2016.

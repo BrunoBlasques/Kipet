@@ -1,4 +1,4 @@
-package com.kipet.DAO;
+package com.kipet.kipet;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
