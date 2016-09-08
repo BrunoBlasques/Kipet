@@ -80,6 +80,6 @@
                     android:allowUndo="false"
                     android:onClick="cadastrar"
                     android:layout_alignParentBottom="true"/>
-
+<!---->
         </LinearLayout>
 </RelativeLayout>
